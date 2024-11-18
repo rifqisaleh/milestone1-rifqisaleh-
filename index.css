@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: "roboto" ,sans-serif;
+}
+
+h2{
+    font-size: 3rem;
+    font-family: "roboto" ,sans-serif;
+}
+
+h3{
+    font-size: 2.5rem;
+    font-family: "roboto" ,sans-serif;
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: "roboto" ,sans-serif;
+}
+
+a{
+    font: 1rem;
+    font-family: "roboto" ,sans-serif;
+}
+
+/*overall font*/
+
+.navcontainer {
+    background-color:rgba(150, 155, 155, 0.932);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    height: 55px;
+    }
+  
+  
+  header {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+     }
+  
+   #navbar {
+      display: flex;
+      justify-content: space-around;
+      height: 100%;
+      width: 100%;
+      margin: auto;
+    }
+  
+  
+  #navbar ul{
+      display: flex;
+      align-items: center;
+    }
+  
+  #navbar {
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+  #navbar ul li {
+      list-style-type: none;
+      float: center;
+      padding: 0px;
+      }    
+  
+  #navbar ul li {
+        list-style-type: none;
+        float: center;
+        padding: 0;
+        margin: 0;
+    }    
+  
+  #navbar li a {
+      display: block;
+      color: black;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition-property: background-color;
+      transition-duration: 2s;
+    }
+  
+    li a:hover {
+      background-color: #ffffff;
+    }
+  
+    @media screen and (max-width: 767px) {
+      .container {
+        height: 100%;
+      }
+    
+  #navbar h2 {
+    font-size: 1.5rem;
+  }
+  
+      #navbar li a{
+        font-size: 1.5rem;
+        letter-spacing: -1.5px;
+      }
+    }
+
+    /*Header*/
+    .introcontainer{
+        background-image: url(images/headerbg.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: grayscale(65%);
+        height: 900px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .intro > div{
+        margin: 10px;
+        padding: 20px;
+        font-size: 80px;
+        color: rgb(20, 20, 20);
+        animation: fadeIn 5s;
+      }
+
+      @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+
+    .intro a{
+        font-size: 2rem;
+        background-color: rgb(49, 46, 45); 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        width: 250px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        transition: width 2s;
+      }
+      
+      .intro a:hover{
+        width: 300px;
+      }
+
