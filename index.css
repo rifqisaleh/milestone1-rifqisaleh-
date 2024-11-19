@@ -29,6 +29,31 @@ a{
     font-family: "roboto" ,sans-serif;
 }
 
+i{
+    size: 5x;
+}
+
+@media screen and (max-width: 767px) {
+  h1{
+    font-size: 2.5rem;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  h3{
+    font-size: 1rem;
+  }
+
+  p{
+    font-size: 1rem;
+  }
+  i{
+    size: 2x;
+  }
+}
+
 /*overall font*/
 
 .navcontainer {
@@ -65,12 +90,6 @@ a{
     }
   
   #navbar ul li {
-      list-style-type: none;
-      float: center;
-      padding: 0px;
-      }    
-  
-  #navbar ul li {
         list-style-type: none;
         float: center;
         padding: 0;
@@ -99,9 +118,10 @@ a{
     font-size: 1.5rem;
   }
   
-      #navbar li a{
-        font-size: 1.5rem;
-        letter-spacing: -1.5px;
+  #navbar li a{
+    font-size: 1rem;
+    letter-spacing: -1.5px;
+    padding: 16px 18px;
       }
     }
 
@@ -110,7 +130,6 @@ a{
         background-image: url(images/headerbg.JPG);
         background-repeat: no-repeat;
         background-size: cover;
-        filter: grayscale(65%);
         height: 900px;
         display: flex;
         justify-content: left;
@@ -129,19 +148,16 @@ a{
         color: bisque;
     }
 
-    .intro h2{
-        font-size: 2.5rem;
+    .intro #aboutus{
+      width: 50%;
     }
-
-      @keyframes fadeIn {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
-      }
-
+    
     .intro a{
         font-size: 2rem;
-        background-color: rgb(49, 46, 45); 
-        border: none;
+        border: 1px transparent;
+        border-style: solid;
+        border-color: black;
+        border-radius: 10px;
         color: white;
         padding: 15px 32px;
         text-align: center;
@@ -150,11 +166,40 @@ a{
         width: 250px;
         margin: 4px 2px;
         cursor: pointer;
-        font-family: "Roboto", sans-serif;
-        transition: width 2s;
-      }
+        background: none;
+        transition-property: background;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+        }
       
       .intro a:hover{
-        width: 300px;
+        background-color: rgb(71, 73, 73);
       }
+  
+      @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @media screen and (max-width: 767px) {
+    .introcontainer {
+      align-items: flex-start;
+      background-size: cover;
+      margin: 0;
+      }
+
+    .intro #aboutus{
+        width: 100%;
+    }
+    .introcontainer{
+      background-size: cover;
+      background-position: center;
+      filter: grayscale(10%);
+  }
+  .intro a{
+    font-size: 1rem;
+    width: 175px;
+  }
+}
+
 
