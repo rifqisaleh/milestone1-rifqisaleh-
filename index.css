@@ -35,7 +35,7 @@ i{
 
 @media screen and (max-width: 767px) {
   h1{
-    font-size: 2.5rem;
+    font-size: 1.7rem;
   }
 
   h2{
@@ -110,19 +110,15 @@ i{
     }
   
     @media screen and (max-width: 767px) {
-      .container {
-        height: 100%;
-      }
+    .container {
+    height: 100%;
+    }
     
-  #navbar h2 {
-    font-size: 1.5rem;
-  }
-  
-  #navbar li a{
+      #navbar li a{
     font-size: 1rem;
     letter-spacing: -1.5px;
     padding: 16px 18px;
-      }
+    }
     }
 
     /*Header*/
@@ -145,7 +141,7 @@ i{
       }
 
     .intro h1{
-        color: bisque;
+        color: rgb(250, 250, 250);
     }
 
     .intro #aboutus{
