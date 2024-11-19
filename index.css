@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root{
+  --primary-color: white;
+  --secondary-color: black;
+}
+
 h1{
     font-size: 5rem;
     font-family: "roboto" ,sans-serif;
@@ -123,9 +128,10 @@ i{
 
     /*Header*/
     .introcontainer{
-        background-image: url(images/headerbg.JPG);
+        background-image: url(images/headerbg.png);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 70%;
+        background-position: center;
         height: 900px;
         display: flex;
         justify-content: left;
@@ -180,22 +186,95 @@ i{
     @media screen and (max-width: 767px) {
     .introcontainer {
       align-items: flex-start;
-      background-size: cover;
+      background-size: 90%;
+      background-position: center;
       margin: 0;
       }
 
     .intro #aboutus{
         width: 100%;
     }
-    .introcontainer{
-      background-size: cover;
-      background-position: center;
-      filter: grayscale(10%);
-  }
   .intro a{
     font-size: 1rem;
     width: 175px;
   }
 }
+ /* Main Content*/
 
+ #ourservices{
+  min-height: 740px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
 
+ #ourservices h2{
+  color: white;
+  margin-bottom: 20px;
+  position: relative;
+ }
+
+ #ourservices h2::after{
+  position: absolute;
+  content:" ";
+  top: 8px;
+  left: -30px;
+  height: 0px;
+  width: 0px;
+  border-top: 20px solid transparent;
+  border-left: 20px solid orangered;
+ }
+
+ #ourservices #paragraph{
+  width: 67%;
+  text-align: center;
+  line-height: 2rem;
+  white-space: 1px;
+  margin-bottom: 100px;
+ }
+
+ .cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 25px;
+  z-index: 9;
+  margin-top: 20px;
+}
+
+.cards .card{
+  height: 300px;
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0 8%;
+  background: rgb(255, 255, 255);
+  position: relative;
+}
+
+.cards .card::before{
+  position: absolute;
+  content: " ";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: rgb(39, 39, 39);
+  transition: .6s;
+  transform: rotate(0deg);
+  z-index: -1;
+}
+
+.cards .card:hover.card::before{
+  transform: rotate(10deg)
+}
+
+.cards .card i{
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
