@@ -339,7 +339,7 @@ margin-bottom: 10px;
  .fleets .fleet img{
   width: 500px;
   height: 300px;
- }
+}
 
  .ourfleet h2{
   color: white;
@@ -358,17 +358,6 @@ margin-bottom: 10px;
   border-left: 20px solid orangered;
  }
 
- .fleets .fleet h3{
-  font-size: 1.8rem;
-margin-bottom: 10px;
-}
-
-.fleets .fleet p{
-  font-size: 1.05rem;
-  margin-bottom: 20px;
-  font-weight: 500;
-}
-
 .ourfleet #paragraph{
   width: 67%;
   text-align: center;
@@ -376,24 +365,6 @@ margin-bottom: 10px;
   white-space: 1px;
   margin-bottom: 100px;
  }
-
- .ourfleet .overlay {
-  position: relative; 
-  bottom: 0; 
-  background: rgba(0, 0, 0, 0.5); 
-  color: #f1f1f1; 
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-}
-
-.fleet:hover .overlay {
-  opacity: 1;
-}
 
 @media screen and (max-width: 767px) {
 .fleets{
@@ -414,3 +385,84 @@ margin-bottom: 10px;
 }
 
 
+/*forms*/
+
+.contact{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact .content{
+  max-width: 800px;
+  text-align: center;
+ }
+
+ .contact .content h2{
+  font-weight: 500;
+ }
+
+ .contact .content p{
+  font-weight: 300;
+ }
+
+ .container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+ }
+
+ .container .contactinfo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .container .contactinfo .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+ }
+
+ .container .contactinfo .box .icon{
+  min-width: 60px;
+  height: 60px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+ }
+
+ .container .contactinfo .box .text{
+  display: flex;
+  margin-left: 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container .contactinfo .box .text h3{
+font-weight: 500;
+color: aqua;
+}
+
+.contactform{
+  width: 40%;
+  padding: 40px;
+  background: #ffffff;
+}
+
+.contactform h2{
+  font-size: 2rem;
+  color: #333;
+  font-weight: 500;
+}
