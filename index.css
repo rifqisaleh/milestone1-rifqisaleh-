@@ -220,7 +220,6 @@ i{
 
 /*mission*/
 #ourmissions{
-  background: #f1f1f1;
   min-height: 740px;
   width: 100%;
   display: flex;
@@ -257,7 +256,7 @@ i{
   padding: 0 8%;
   position: relative;
   border-radius: 10px;
-  background-color: rgb(163, 155, 139);
+  background-color: #f1f1f1;
   margin-bottom: 100px;
 }
 
@@ -274,7 +273,7 @@ margin-bottom: 10px;
 
 .missions .mission i{
   font-size: 2.5rem;
-  color: var(--secondary-color);
+  color: cadetblue;
   margin-top: 40px;
   margin-bottom: 10px;
 }
@@ -289,6 +288,7 @@ margin-bottom: 10px;
     height: 200px;
     width: 400px;
     margin-bottom: 0;
+    align-items: center;
 }
 #ourmissions h2{
   font-size: 2.5em;
@@ -299,7 +299,6 @@ margin-bottom: 10px;
  /*Services*/
 
  #ourservices{
-  background: #f1f1f1;
   min-height: 740px;
   width: 100%;
   display: flex;
@@ -342,7 +341,7 @@ margin-bottom: 10px;
   justify-content: flex-start;
   flex-direction: column;
   padding: 0 8%;
-  background-color: rgb(163, 155, 139);
+  background-color:  #f1f1f1;
   position: relative;
   border-radius: 10px;
   margin-bottom: 100px;
@@ -430,7 +429,7 @@ color: rgb(60, 61, 61);
   position: relative;
   border-radius: 10px;
   margin-bottom: 100px;
-  filter: drop-shadow(1px 7px 5px #000000);
+  filter: drop-shadow(1px 7px 5px cadetblue);
 }
 
  .fleets .fleet img{
@@ -508,11 +507,11 @@ color: rgb(60, 61, 61);
   padding: 40px 0;
   transition: 0.4s;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .teamcontainer .pe:hover{
-background: #ddd;
+background: cadetblue;
 }
 
 .teamcontainer .pe img{
