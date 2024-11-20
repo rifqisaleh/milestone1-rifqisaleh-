@@ -441,7 +441,7 @@ color: rgb(60, 61, 61);
   position: relative;
  }
 
-.ourfleet #paragraph{
+.ourfleet #paragraph1{
   width: 67%;
   text-align: center;
   line-height: 2rem;
@@ -461,7 +461,7 @@ color: rgb(60, 61, 61);
   font-size: 2.5em;
 }
 
-.ourfleet #paragraph{
+.ourfleet #paragraph1{
   font-size: 1.5rem;
   width: 100%;
 }
@@ -497,8 +497,8 @@ color: rgb(60, 61, 61);
   position: relative;
  }
 
- .contact .content #paragraph{
-  font-weight: 500;
+ .contact .content #paragraph2{
+  font-size: 1.5rem;
   line-height: 2rem;
   white-space: 1px;
   margin-bottom: 100px;
@@ -595,19 +595,21 @@ color: rgb(5, 5, 5);
 .contactform .inputBox input:valid ~ span,
 .contactform .inputBox textarea:focus ~ span,
 .contactform .inputBox textarea:valid ~ span{
-  color: rgb(134, 12, 12);
+  color: cadetblue;
   font-size: 12px;
   transform: translatey(-20px);
 }
 
 .contactform .inputBox input [type="submit"]{
   width:100px;
-  background: #00bcd4;
+  background: cadetblue;
   border: none;
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
 }
+
+
 
 @media screen and (max-width: 991px) {
   
@@ -639,6 +641,7 @@ color: rgb(5, 5, 5);
 .footer-content h4{
   margin-bottom: 1.5rem;
   font-size: 20px;
+  color: #fff;
 }
 
 .footer-content li{
@@ -663,7 +666,8 @@ color: rgb(5, 5, 5);
 .iconsbottom a{
   display: inline-block;
   font-size: 22px;
-  margin-right: 17px;
+  margin-right: 20px;
+  margin-left: 9px;
   gap: 10rem;
   transition: all .40s ease;
 }
