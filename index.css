@@ -17,6 +17,7 @@ h1{
 h2{
     font-size: 3rem;
     font-family: "roboto" ,sans-serif;
+    color: dimgray;
 }
 
 h3{
@@ -133,16 +134,20 @@ i{
 
     /*Header*/
     .introcontainer{
-      /*background-image: url(images/headerbg.png);
+      background-image: url(images/headerbg.jpg);
       background-repeat: no-repeat;
       background-size: 70%;
-      background-position: center;*/
+      background-size: cover;
+      filter: grayscale(70%);
       height: 900px;
       display: flex;
       justify-content: left;
       align-items: center;
   }
 
+  .introcontainer img{
+    filter: none;
+  }
   .intro > div{
       margin: 10px;
       padding: 20px;
@@ -194,22 +199,97 @@ i{
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-size: 90%;
-    background-position: center;
-   }
+    background-position: left;
+    }
 
    .introcontainer #aboutus{
     margin-left: 100px;
-    width: 60%;
+    margin-right: 100px;
+    width: 70%;
    }
 
+   .intro p{
+    font-size: 1.5rem;
+    font-weight: 400;
+   }
   
   .intro a{
     font-size: 1rem;
     width: 175px;
   }
 }
- /* Main Content*/
+
+/*mission*/
+#ourmissions{
+  min-height: 740px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+
+ #ourmissions h2{
+  color: dimgray;;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  position: relative;
+ }
+
+ .missions{
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  gap: 5px;
+  z-index: 9;
+  margin-top: 20px;
+}
+
+.missions .mission{
+  height: 300px;
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0 8%;
+  position: relative;
+  border-radius: 10px;
+}
+
+.missions .mission h3{
+  font-size: 1.8rem;
+margin-bottom: 10px;
+}
+
+.missions .mission p{
+  font-size: 1.05rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.missions .mission i{
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .missions{
+    grid-template-columns: repeat(1,1fr);
+    margin-bottom: 50px;
+  }
+
+  .missions .mission{
+    height: 200px;
+    width: 400px;
+}
+#ourmissions h2{
+  font-size: 2.5em;
+}
+}
+
+
+ /*Services*/
 
  #ourservices{
   min-height: 740px;
@@ -221,8 +301,9 @@ i{
  }
 
  #ourservices h2{
-  color: white;
-  margin-bottom: 20px;
+  color: dimgray;;
+  margin-top: 100px;
+  margin-bottom: 50px;
   position: relative;
  }
 
@@ -252,6 +333,7 @@ i{
   background: rgb(255, 255, 255);
   position: relative;
   border-radius: 10px;
+  margin-bottom: 100px;
 }
 
 .cards .card::before{
@@ -341,8 +423,9 @@ margin-bottom: 10px;
 }
 
  .ourfleet h2{
-  color: white;
-  margin-bottom: 20px;
+  color: dimgray;;
+  margin-top: 100px;
+  margin-bottom: 50px;
   position: relative;
  }
 
@@ -392,8 +475,9 @@ margin-bottom: 10px;
 
  .contact .content h2{
   font-weight: 500;
-  color: white;
-  margin-bottom: 20px;
+  color: dimgray;;
+  margin-top: 100px;
+  margin-bottom: 50px;
   position: relative;
  }
 
@@ -458,7 +542,7 @@ color: rgb(235, 243, 243);
 
 .contactform h2{
   font-size: 2rem;
-  color: #333;
+  color: dimgray;;
   font-weight: 500;
 }
 
