@@ -220,6 +220,7 @@ i{
 
 /*mission*/
 #ourmissions{
+  background: #f1f1f1;
   min-height: 740px;
   width: 100%;
   display: flex;
@@ -231,10 +232,12 @@ i{
  #ourmissions h2{
   color: rgb(3, 3, 3);
   font-size: 4rem;
-  font-style: oblique;
   margin-top: 100px;
   margin-bottom: 50px;
   position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
  }
 
  .missions{
@@ -254,7 +257,7 @@ i{
   padding: 0 8%;
   position: relative;
   border-radius: 10px;
-  background-color: rgb(241, 239, 235);
+  background-color: rgb(163, 155, 139);
   margin-bottom: 100px;
 }
 
@@ -296,6 +299,7 @@ margin-bottom: 10px;
  /*Services*/
 
  #ourservices{
+  background: #f1f1f1;
   min-height: 740px;
   width: 100%;
   display: flex;
@@ -307,10 +311,12 @@ margin-bottom: 10px;
  #ourservices h2{
   color: rgb(3, 3, 3);
   font-size: 4rem;
-  font-style: oblique;
   margin-top: 100px;
   margin-bottom: 50px;
   position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
  }
 
  #ourservices #paragraph{
@@ -336,7 +342,7 @@ margin-bottom: 10px;
   justify-content: flex-start;
   flex-direction: column;
   padding: 0 8%;
-  background: rgb(241, 239, 235);
+  background-color: rgb(163, 155, 139);
   position: relative;
   border-radius: 10px;
   margin-bottom: 100px;
@@ -435,10 +441,12 @@ color: rgb(60, 61, 61);
  .ourfleet h2{
   color: rgb(3, 3, 3);
   font-size: 4rem;
-  font-style: oblique;
   margin-top: 100px;
   margin-bottom: 50px;
   position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
  }
 
 .ourfleet #paragraph1{
@@ -469,6 +477,84 @@ color: rgb(60, 61, 61);
 
 /*my teams*/
 
+/*my team*/
+.teamcontainer{
+  background: #f1f1f1;
+  text-align: center;
+}
+
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  color: #333;
+  overflow: hidden;
+}
+
+.teamcontainer h2{
+  margin-top: 100px;
+  font-size: 4rem;
+  color: rgb(2, 2, 2);;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
+  padding-bottom: 10px;
+}
+
+.teamcontainer .pe{
+  float: left;
+  width: calc(100% / 3);
+  overflow: hidden;
+  padding: 40px 0;
+  transition: 0.4s;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.teamcontainer .pe:hover{
+background: #ddd;
+}
+
+.teamcontainer .pe img{
+width: 350px;
+height: 250px;
+}
+
+.p-name{
+  margin: 16px 0;
+  text-transform: uppercase;
+}
+
+.p-des{
+  font-style: italic;
+}
+
+.p-sm{
+  margin-top: 12px;
+}
+
+.p-sm a{
+  margin: 0 4px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  transition: 0.4s;
+}
+
+.p-sm a:hover{
+  transform: scale(1.3);
+}
+
+.p-sm a i{
+  color: #333;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .teamcontainer .pe{
+    width: 100%;
+  }
+}
 
 
 /*forms*/
@@ -481,6 +567,7 @@ color: rgb(60, 61, 61);
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background: #f1f1f1;
   }
 
 .contact .content{
@@ -491,10 +578,12 @@ color: rgb(60, 61, 61);
  .contact .content h2{
   color: rgb(3, 3, 3);
   font-size: 4rem;
-  font-style: oblique;
   margin-top: 100px;
   margin-bottom: 50px;
   position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
  }
 
  .contact .content #paragraph2{
@@ -560,6 +649,9 @@ color: rgb(5, 5, 5);
   font-size: 2rem;
   color: rgb(2, 2, 2);;
   font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
 }
 
 .contactform .inputBox{
@@ -626,6 +718,7 @@ color: rgb(5, 5, 5);
   }
 }
 
+
 /*Footer*/
 .footer{
   display: grid;
@@ -676,3 +769,4 @@ color: rgb(5, 5, 5);
   color: #fff;
   transform: translateY(-5px);
 }
+
