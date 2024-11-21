@@ -1,9 +1,9 @@
 <img src="images/headerrm.png">
 
+<br><br>
 
-#  👋 Hello There, I'm Muhammad Rifqi Saleh
-
-Hello everyone ! <br/> <br/>
+# <i><b>About This Project</b></i>
+Hello everyone, my name is <b><i>Muhammad Rifqi Saleh</i></b> ! <br/> <br/>
 As part of my software engineering course, i was tasked to make a simple website based of HTML and design it with CSS. This website consist of sticky Navbar, log in & enquiry form, Introduction paragraph and gallery preview. This projects presents a simple company profile of a flying club in Jakarta. The focus of this website is to provide basic explanation and introduction of the company.
 
 Visit this link (https://aeroindahflyingclub.site/) to access my deployment !
@@ -13,7 +13,7 @@ Visit this link (https://aeroindahflyingclub.site/) to access my deployment !
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/rifqisaleh) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-rifqi-saleh-77b61911a/) 
 
 <br/>
-## <i><b>About This Project</b></i>
+
 
 ## <i><b> Table of Contents </b></i>
 <ul><li>Technologies Used</li>
