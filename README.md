@@ -17,7 +17,7 @@ Visit this link (https://aeroindahflyingclub.site/) to access my deployment !
 
 ## <i><b> Table of Contents </b></i>
 <ul><li>Technologies Used</li>
-<li>Features</li>
+<li>Structures</li>
 <li>Setup</li>
 <li>Deployment</li></ul>
 
@@ -30,16 +30,28 @@ Visit this link (https://aeroindahflyingclub.site/) to access my deployment !
 
 <br/>
 
-## <i><b> Features </b></i> <br/>
+## <i><b> Structures </b></i> <br/>
 
-<ul>
-<li>Screen design that cater to all devices</li>
-<li>Simple navigation bar</li>
-<li>Company mission & programs</li>
-<li>Company team member and fleet</li>
-<li>Enquiry section</li> </ul>
+The structures of the html site consist of:
 
-<br/>
+**1.** Header
+- Navbar
+- Company Short Intro
+
+<br>
+
+**2.** Main
+- Our Mission Section
+- Available Programs Section
+- Available Fleet Section
+- Team Section
+- Enquiries Section
+
+<br>
+
+**3.** Footer
+- Additional Navigation Bar
+
 
 ## <i><b>Setup</b></i> <br/>
 
@@ -47,12 +59,37 @@ Visit this link (https://aeroindahflyingclub.site/) to access my deployment !
     [`https://github.com/rifqisaleh/milestone1-rifqisaleh-.git`]
 
 2. Navigate to the project directory:<br>
-`cd milestone1-rifqisaleh`
+    `cd milestone1-rifqisaleh`
 
 3. Open the `index.html` file in your browser:
    
 4. For accessing any pictures from "images" folder, you can use: <br>
- `<img src="../images/headerplane.jpg"`
+    `<img src="../images/headerplane.jpg"`
+
+5. Create a new branch under the name  "develop/(your name)" and switch to your new branch<br>
+    
+    `git branch -b "develop/(yourname)"`
+
+    `git checkout -b "develop/(yourname)"`
+
+6. Modify or customise as needed and push the file if you are done<br>
+
+    `git add.`
+
+    `git commit -m"update message" / Put a short and concise message`
+
+    `git push origin develop/(yourname)`
+
+7. Merge into main branch <br>
+    
+    `git checkout main`
+
+    `git pull origin main / pull latest version before merging`
+
+    `git merge develop/(yourname)/ Please resolve any conflicts`
+
+    `git push origin main`
+
 
 <br>
 
