@@ -142,6 +142,7 @@ i{
       display: flex;
       justify-content: left;
       align-items: center;
+      animation: fadeIn 2s;
   }
 
   .introcontainer img{
@@ -152,8 +153,21 @@ i{
       padding: 20px;
       font-size: 80px;
       color: rgb(248, 244, 244);
-      animation: fadeIn 5s;
-    }
+      animation-duration: 4s;
+      animation-name: slide-in;
+      }
+
+      @keyframes slide-in {
+        from {
+          translate: 150vw 0;
+          scale: 100% 1;
+        }
+      
+        to {
+          translate: 0 0;
+          scale: 100% 1;
+        }
+      }
 
   .intro p{
       color: rgb(7, 7, 7);
@@ -236,7 +250,7 @@ i{
   position: relative;
   text-transform: uppercase;
   display: inline-block;
-  border-bottom: 4px solid;
+  border-bottom: 4px solid cadetblue;
  }
 
  .missions{
@@ -256,7 +270,6 @@ i{
   padding: 0 8%;
   position: relative;
   border-radius: 10px;
-  background-color: #f1f1f1;
   margin-bottom: 100px;
 }
 
@@ -315,7 +328,7 @@ margin-bottom: 10px;
   position: relative;
   text-transform: uppercase;
   display: inline-block;
-  border-bottom: 4px solid;
+  border-bottom: 4px solid cadetblue;
  }
 
  #ourservices #paragraph{
@@ -445,7 +458,7 @@ color: rgb(60, 61, 61);
   position: relative;
   text-transform: uppercase;
   display: inline-block;
-  border-bottom: 4px solid;
+  border-bottom: 4px solid cadetblue;
  }
 
 .ourfleet #paragraph1{
@@ -496,7 +509,7 @@ color: rgb(60, 61, 61);
   color: rgb(2, 2, 2);;
   text-transform: uppercase;
   display: inline-block;
-  border-bottom: 4px solid;
+  border-bottom: 4px solid cadetblue;
   padding-bottom: 10px;
 }
 
@@ -582,7 +595,7 @@ height: 250px;
   position: relative;
   text-transform: uppercase;
   display: inline-block;
-  border-bottom: 4px solid;
+  border-bottom: 4px solid cadetblue;
  }
 
  .contact .content #paragraph2{
