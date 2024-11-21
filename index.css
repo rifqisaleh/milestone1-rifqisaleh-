@@ -324,7 +324,7 @@ margin-bottom: 10px;
  #ourservices h2{
   color: rgb(3, 3, 3);
   font-size: 4rem;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
   position: relative;
   text-transform: uppercase;
@@ -455,7 +455,7 @@ color: rgb(60, 61, 61);
  .ourfleet h2{
   color: rgb(3, 3, 3);
   font-size: 4rem;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
   position: relative;
   text-transform: uppercase;
@@ -506,7 +506,7 @@ color: rgb(60, 61, 61);
 }
 
 .teamcontainer h2{
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 4rem;
   color: rgb(2, 2, 2);;
   text-transform: uppercase;
@@ -596,7 +596,7 @@ height: 250px;
  .contact .content h2{
   color: rgb(3, 3, 3);
   font-size: 4rem;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
   position: relative;
   text-transform: uppercase;
@@ -654,6 +654,8 @@ height: 250px;
 .container .contactinfo .box .text h3{
 font-weight: 500;
 color: rgb(5, 5, 5);
+font-size: 2rem;
+font-style: italic;
 }
 
 .contactform{
@@ -798,6 +800,10 @@ footer{
   list-style-type: none;
   padding: 7px;
   position: relative;
+}
+
+.list li a{
+  color: #000000;
 }
 
 .list li::before{
