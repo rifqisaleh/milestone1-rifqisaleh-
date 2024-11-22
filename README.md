@@ -143,6 +143,6 @@ The tools/website that are used for this deployment are:
 <br/><br>
 
 <li><b> Auto Deployment</b><br><br></li>
-Netifly enables auto deploymeny automatically after linking your repository. Any changes that were pushed to the repo will automatically revise the deployed website.
+Netifly enables auto deployment automatically after linking your repository. Any changes that were pushed to the repo will automatically revise the deployed website.
 
 </ol>
