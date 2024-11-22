@@ -143,6 +143,7 @@ i{
       justify-content: left;
       align-items: center;
       animation: fadeIn 2s;
+      filter: grayscale(25%);
   }
 
   .introcontainer img{
@@ -263,16 +264,16 @@ i{
 }
 
 .missions .mission{
-  height: 200px;
+  height: 250px;
   width: 500px;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   padding: 0 8%;
   position: relative;
-  border-radius: 10px;
+  border-radius: 100px;
   margin-bottom: 50px;
-  background-color:  #f1f1f1;
+  background-color: white;
   transition: 1s;
 }
 
@@ -306,6 +307,7 @@ font-style: italic;
     width: 350px;
     margin-bottom: 0;
     align-items: center;
+    border-radius: 100px;
 }
 #ourmissions h2{
   font-size: 2em;
@@ -316,7 +318,7 @@ font-style: italic;
  /*Services*/
 
  #ourservices{
-  background-color: #add8e6;
+  background-color: #add8e675;
   min-height: 740px;
   width: 100%;
   display: flex;
@@ -359,9 +361,9 @@ font-style: italic;
   justify-content: flex-start;
   flex-direction: column;
   padding: 0 8%;
-  background-color:  #f1f1f1;
+  background-color: white;
   position: relative;
-  border-radius: 10px;
+  border-radius: 80px;
   margin-bottom: 100px;
 }
 
@@ -412,6 +414,7 @@ color: rgb(60, 61, 61);
   .cards .card{
     height: 300px;
     width: 350px;
+    border-radius: 100px;
 }
 #ourservices h2{
   font-size: 2em;
@@ -425,7 +428,7 @@ color: rgb(60, 61, 61);
 
 /*fleet*/
 .ourfleet{
-  background:#f0f8ff;
+  background-color: #add8e657;
   min-height: 740px;
   width: 100%;
   display: flex;
@@ -502,7 +505,7 @@ color: rgb(60, 61, 61);
 
 /*my team*/
 .teamcontainer{
-  background-color: #add8e6b2;
+  background-color: #add8e634;
   text-align: center;
 }
 
@@ -589,7 +592,7 @@ height: 250px;
 /*forms*/
 
 .contact{
-  background-color: #f0f8ff;
+  background-color: #add8e657;
   position: relative;
   min-height: 100vh;
   padding: 50px 100px;
@@ -597,8 +600,7 @@ height: 250px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 50px;
- }
+}
 
 .contact .content{
   max-width: 800px;
@@ -620,7 +622,7 @@ height: 250px;
   font-size: 1.5rem;
   line-height: 2rem;
   white-space: 1px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
  .container{
@@ -629,6 +631,7 @@ height: 250px;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  margin-bottom: 30px;
  }
 
  .container .contactinfo{
@@ -683,7 +686,7 @@ font-style: italic;
   color: rgb(2, 2, 2);
   font-weight: 500;
   display: inline-block;
-  border-bottom: 4px solid rgb(233, 230, 224);
+  border-bottom: 4px solid cadetblue;
 }
 
 .contactform .inputBox{
@@ -865,14 +868,14 @@ footer{
 }
 
 .bottom-bar{
-  background: #f18930;
+  background: #696969;
   text-align: center;
   padding: 10px 0;
   margin-top: 50px;
 }
 
 .bottom-bar p{
-  color: #343434;
+  color: antiquewhite;
   margin: 0;
   font-size: 16px;
   padding: 7px;
