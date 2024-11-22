@@ -100,8 +100,8 @@ In this section, i will explain my website deployment process. This sections are
 3. Domain Registration
 4. Auto Deployment
 
-<br>
-<li><b>Website/Tools Used</b><br>
+<br><ol>
+<li><b> Website/Tools Used</b><br><br></li>
 The tools/website that are used for this deployment are:
 <ul>
 
@@ -113,7 +113,7 @@ The tools/website that are used for this deployment are:
 
 
 <br>
-<li><b>Deployment</b><br>
+<li><b> Deployment</b><br><br></li>
 <br>
 
 - After signing in, i proceed to import my existing repository by clicking the "Import From Git" on my main netifly page.
@@ -125,9 +125,9 @@ The tools/website that are used for this deployment are:
 <br/> <img src="images/deployment3.png">
 
 - It will then revert back to site overview, where i can observe the deployment progress. When the deployment are done, a success message popped up. 
-<br/>
+<br/><br/>
 
-<li><b>Domain Registration</b></li><br/>
+<li><b> Domain Registration</b><br><br></li>
 
 - For this deployment, i will be using a local domain hosting, niagahoster.
 
@@ -140,6 +140,9 @@ The tools/website that are used for this deployment are:
 - The page then redirected to Domain Management, and just to the right of "aeroindahflyingclub.site", i click `option` and `Go To DNS Panel`. <br/> <img src="images/hosting6.png">
 
 - I then copy the four domain's name server, and paste it on niagahoster name server. After saving the DNS name, I waited at least 30 minutes before i can finally access my website.
+<br/><br>
 
-<li><b>Auto Deplyment</b></li><br/>
+<li><b> Auto Deployment</b><br><br></li>
 Netifly enables auto deploymeny automatically after linking your repository. Any changes that were pushed to the repo will automatically revise the deployed website.
+
+</ol>
