@@ -98,6 +98,7 @@ In this section, i will explain my website deployment process. This sections are
 1. Website/Tools Used
 2. Deployment
 3. Domain Registration
+4. Auto Deployment
 
 <br>
 <li><b>Website/Tools Used</b><br>
@@ -140,3 +141,5 @@ The tools/website that are used for this deployment are:
 
 - I then copy the four domain's name server, and paste it on niagahoster name server. After saving the DNS name, I waited at least 30 minutes before i can finally access my website.
 
+<li><b>Auto Deplyment</b></li><br/>
+Netifly enables auto deploymeny automatically after linking your repository. Any changes that were pushed to the repo will automatically revise the deployed website.
