@@ -523,10 +523,12 @@ color: rgb(60, 61, 61);
   transition: 0.4s;
   margin-top: 30px;
   margin-bottom: 10px;
+  border-radius: 30px;
 }
 
 .teamcontainer .pe:hover{
-background: cadetblue;
+background: rgba(95, 158, 160, 0.623);
+border-radius: 50px;
 }
 
 .teamcontainer .pe img{
